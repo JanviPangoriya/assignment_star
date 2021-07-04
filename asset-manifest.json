@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/assignment_star/static/css/main.09851f04.chunk.css",
+    "main.js": "/assignment_star/static/js/main.16ac1b82.chunk.js",
+    "main.js.map": "/assignment_star/static/js/main.16ac1b82.chunk.js.map",
+    "runtime-main.js": "/assignment_star/static/js/runtime-main.8a458d47.js",
+    "runtime-main.js.map": "/assignment_star/static/js/runtime-main.8a458d47.js.map",
+    "static/js/2.8924d93f.chunk.js": "/assignment_star/static/js/2.8924d93f.chunk.js",
+    "static/js/2.8924d93f.chunk.js.map": "/assignment_star/static/js/2.8924d93f.chunk.js.map",
+    "static/js/3.4641edc6.chunk.js": "/assignment_star/static/js/3.4641edc6.chunk.js",
+    "static/js/3.4641edc6.chunk.js.map": "/assignment_star/static/js/3.4641edc6.chunk.js.map",
+    "index.html": "/assignment_star/index.html",
+    "static/css/main.09851f04.chunk.css.map": "/assignment_star/static/css/main.09851f04.chunk.css.map",
+    "static/js/2.8924d93f.chunk.js.LICENSE.txt": "/assignment_star/static/js/2.8924d93f.chunk.js.LICENSE.txt",
+    "static/media/025.6c821352.webp": "/assignment_star/static/media/025.6c821352.webp",
+    "static/media/050.3d1bfd58.webp": "/assignment_star/static/media/050.3d1bfd58.webp",
+    "static/media/1-fun-freebies.f97d963b.webp": "/assignment_star/static/media/1-fun-freebies.f97d963b.webp",
+    "static/media/150.633b0d34.webp": "/assignment_star/static/media/150.633b0d34.webp",
+    "static/media/2-order-and-pay-ahead.da30f135.webp": "/assignment_star/static/media/2-order-and-pay-ahead.da30f135.webp",
+    "static/media/200.36c0f212.webp": "/assignment_star/static/media/200.36c0f212.webp",
+    "static/media/3-get-to-free-faster.ea9a9d06.webp": "/assignment_star/static/media/3-get-to-free-faster.ea9a9d06.webp",
+    "static/media/400.ce6642d4.webp": "/assignment_star/static/media/400.ce6642d4.webp",
+    "static/media/dektop.a26d6d09.png": "/assignment_star/static/media/dektop.a26d6d09.png",
+    "static/media/getting-started-1@2x.1db30414.webp": "/assignment_star/static/media/getting-started-1@2x.1db30414.webp",
+    "static/media/getting-started-2@2x.d235bd72.webp": "/assignment_star/static/media/getting-started-2@2x.d235bd72.webp",
+    "static/media/getting-started-3@2x.916fc5c4.webp": "/assignment_star/static/media/getting-started-3@2x.916fc5c4.webp",
+    "static/media/mobile.be7192b1.png": "/assignment_star/static/media/mobile.be7192b1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8a458d47.js",
+    "static/js/2.8924d93f.chunk.js",
+    "static/css/main.09851f04.chunk.css",
+    "static/js/main.16ac1b82.chunk.js"
+  ]
+}
