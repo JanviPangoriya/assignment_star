@@ -10,7 +10,6 @@ interface Props{
 
 const GettingStarted:React.FC<Props>=(props) => {
     return(
-<div>
 <section className="pt-16 ">
         <div className="grid justify-items-center">
             <h1 className="text-2xl font-semibold">Getting started is easy</h1>
@@ -27,7 +26,6 @@ const GettingStarted:React.FC<Props>=(props) => {
         </div>
         
        </section>
-</div>
     );
 
 

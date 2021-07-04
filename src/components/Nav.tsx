@@ -12,11 +12,11 @@ const Nav:React.FC<Props>=(props) => {
         setMenuOpen(!menuOpen)
         if(menuOpen === true)
         {
-            document.body.style.position = ""
+            document.body.style.overflow = "visible"
         }
         else
         {
-            document.body.style.position = "fixed"
+            document.body.style.overflow = "hidden"
         }
            }
     return(
@@ -32,18 +32,16 @@ const Nav:React.FC<Props>=(props) => {
             <path className={"sb-hamburgerButton-topLine-CLOSED sb-hamburgerButton-animation sb-hamburgerButton-animation-outer-lines "+(menuOpen?
             "transform rotate-45 translate-x-2.5 -translate-y-0.5 transition duration-200 ":"")} d="M21,6.9H3C2.5,6.9,2.1,6.5,2.1,6S2.5,5.1,3,5.1h18c0.5,0,0.9,0.4,0.9,0.9S21.5,6.9,21,6.9z"></path><path className={"sb-hamburgerButton-bottomLine-CLOSED sb-hamburgerButton-animation sb-hamburgerButton-animation-outer-lines "+(menuOpen?"transform  -translate-x-2 translate-y-1.5 -rotate-45  transition duration-200":"")} d="M21,18.9H3c-0.5,0-0.9-0.4-0.9-0.9s0.4-0.9,0.9-0.9h18c0.5,0,0.9,0.4,0.9,0.9S21.5,18.9,21,18.9z"></path><circle className="sb-icon-hover" fill="transparent" cx="50%" cy="50%" r="75%"></circle></svg>
     </div>
-    <div className={"absolute top-16 bottom-0 right-0 w-4/5 bg-white z-50 " +(menuOpen ? "block":"hidden")}>
+       
+            <button className={"absolute mt-9 z-50 text-white font-bold py-2 px-2 rounded-full transform -rotate-90 " +(menuOpen?"inline-block":"hidden")}>
+
+<svg viewBox="0 0 24 24" className="valign-middle absoluteCenter w-8 h-8 overflow-visible fill-current text-gray-600" preserveAspectRatio="xMidYMid meet" aria-hidden="true" focusable="false"><path d="M11.96 15.5c-.206 0-.402-.084-.546-.232l-5.188-5.33c-.3-.31-.3-.81 0-1.12.3-.31.79-.31 1.093 0l4.64 4.767 4.723-4.853c.3-.31.79-.31 1.09 0 .303.31.303.812.002 1.122l-5.27 5.414c-.145.148-.34.232-.546.232"></path><circle className="sb-icon-hover" fill="transparent" cx="50%" cy="50%" r="75%"></circle></svg>
+</button>
+    <div className={"absolute top-16 bottom-0 right-0 w-4/5 bg-white z-40 " +(menuOpen ? "block":"hidden")}>
     <div className="bg-gray-200 h-0.5 mt-2"></div>
     <ul className="absolute top-0 pt-10 pl-8 flex flex-col items-start justify-start space-y-8">
-    <li className="inline-block pr-5  text-gray-600 text-xl font-semibold">
-        <ul className="flex flex-row items-center ">
-            <li className="float-left">Menu</li>
-            <li className="ml-96">     
-            <button className={" text-white font-bold py-2 px-2 rounded-full transform -rotate-90"}>
-
-<svg viewBox="0 0 24 24" className="valign-middle absoluteCenter w-8 h-8 overflow-visible " preserveAspectRatio="xMidYMid meet" aria-hidden="true" focusable="false"><path d="M11.96 15.5c-.206 0-.402-.084-.546-.232l-5.188-5.33c-.3-.31-.3-.81 0-1.12.3-.31.79-.31 1.093 0l4.64 4.767 4.723-4.853c.3-.31.79-.31 1.09 0 .303.31.303.812.002 1.122l-5.27 5.414c-.145.148-.34.232-.546.232"></path><circle className="sb-icon-hover" fill="transparent" cx="50%" cy="50%" r="75%"></circle></svg>
-</button></li>
-        </ul></li>
+    <li className="inline-block pr-5  text-gray-600 text-xl font-semibold">Menu
+        </li>
     <li className="inline-block pr-5  text-gray-600  text-xl font-semibold">Rewards</li>
     <li className="inline-block pr-5 pb-10 text-gray-600  text-xl font-semibold">Gift Cards</li>
 </ul>
