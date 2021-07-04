@@ -29,7 +29,7 @@ const GetyourFavourites:React.FC<Props>=(props) => {
         setclick1(false);
         setclick2(false);
         setclick3(false);
-        setclick4(false);}}>    <li className={"text-2xl font-bold py-6 px-10 "+(clciked?"border-b-4 border-green-700":"" )}>25<span className="text-sm text-yellow-300">★</span> </li></button>
+        setclick4(false);}}>    <li className={"text-2xl font-bold py-6 px-5 md:px-10 "+(clciked?"border-b-4 border-green-700":"" )}>25<span className="text-md text-yellow-300">★</span> </li></button>
            <button onClick={()=>{setImage(img2);
           setText("Brewed hot coffee, bakery item or hot tea");
           setText1("Pair coffee cake or an almond croissant with your fresh cup of hot brew.");
@@ -37,7 +37,7 @@ const GetyourFavourites:React.FC<Props>=(props) => {
         setclick1(true);
         setclick2(false);
         setclick3(false);
-        setclick4(false);}}><li className={"text-2xl font-bold py-6 px-10 "+(clciked1?"border-b-4 border-green-700":"" )}>50<span className="text-sm text-yellow-300">★</span> </li></button>
+        setclick4(false);}}><li className={"text-2xl font-bold py-6 px-5 md:px-10 "+(clciked1?"border-b-4 border-green-700":"" )}>50<span className="text-md text-yellow-300">★</span> </li></button>
            <button onClick={()=>{setImage(img3); 
              setText("Handcrafted drink, hot breakfast or parfait");
              setText1("Have a really good morning with a breakfast sandwich, oatmeal or your favorite drink.");
@@ -45,7 +45,7 @@ const GetyourFavourites:React.FC<Props>=(props) => {
         setclick1(false);
         setclick2(true);
         setclick3(false);
-        setclick4(false);}}><li className={"text-2xl font-bold py-6 px-10 "+(clciked2?"border-b-4 border-green-700":"" )}>150<span className="text-sm text-yellow-300">★</span> </li></button>
+        setclick4(false);}}><li className={"text-2xl font-bold py-6 px-5 md:px-10 "+(clciked2?"border-b-4 border-green-700":"" )}>150<span className="text-md text-yellow-300">★</span> </li></button>
            <button onClick={()=>{setImage(img4); 
            setText("Salad, sandwich or protein box");
            setText1("Nourish your day with a hearty Chipotle Chicken Wrap or Eggs & Cheese Protein Box.");
@@ -53,7 +53,7 @@ const GetyourFavourites:React.FC<Props>=(props) => {
         setclick1(false);
         setclick2(false);
         setclick3(true);
-        setclick4(false);}}><li className={"text-2xl font-bold py-6 px-10 "+(clciked3?"border-b-4 border-green-700":"" )}>200<span className="text-sm text-yellow-300">★</span> </li></button>
+        setclick4(false);}}><li className={"text-2xl font-bold py-6 px-5 md:px-10 "+(clciked3?"border-b-4 border-green-700":"" )}>200<span className="text-md text-yellow-300">★</span> </li></button>
            <button onClick={()=>{setImage(img5);
            setText("Select merchandise or at-home coffee");
            setText1("Take home a signature cup, a bag of coffee or your choice of select coffee accessories.");
@@ -61,7 +61,7 @@ const GetyourFavourites:React.FC<Props>=(props) => {
         setclick1(false);
         setclick2(false);
         setclick3(false);
-        setclick4(true);}}><li className={"text-2xl font-bold py-6 px-10 "+(clciked4?"border-b-4 border-green-700":"" )}>400<span className="text-sm text-yellow-300">★</span> </li></button>
+        setclick4(true);}}><li className={"text-2xl font-bold py-6 px-5 md:px-10 "+(clciked4?"border-b-4 border-green-700":"" )}>400<span className="text-md text-yellow-300">★</span> </li></button>
             </ul>
         </div>
         <div className="bg-blue-100 md:flex justify-center py-2 lg:py-6">

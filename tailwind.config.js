@@ -14,7 +14,8 @@ module.exports = {
       pink:colors.pink,
       red:colors.red,
       green:colors.green,
-      blue:colors.blue
+      blue:colors.blue,
+      yellow:colors.yellow,
     },
     extend: {
       // backgroundImage: theme => ({
