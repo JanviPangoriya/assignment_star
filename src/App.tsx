@@ -1,26 +1,39 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import About from './components/About';
+import CashCard from './components/CashCard';
+import EarningStar from './components/EarningStar';
+import EndlessExtra from './components/EndlessExtra';
+import Footer from './components/Footer';
+import GettingStarted from './components/GettingStarted';
+import Hero from './components/Hero';
+import Nav from './components/Nav';
+import StarCodes from './components/StarCodes';
+import SubHeader from './components/SubHeader';
+import GetyourFavourites from './components/GetyourFavourites';
+interface Props{
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
 }
 
+const App:React.FC<Props>=(props) => {
+    return(
+        <>
+        <Nav />
+        <SubHeader />
+        <Hero />
+        <GettingStarted />
+        <GetyourFavourites />
+        <EndlessExtra />
+        <CashCard />
+        <StarCodes />
+        <EarningStar />
+        <About />
+        <Footer />
+        </>
+    );
+
+}
+
+App.defaultProps={
+    
+}
 export default App;
